@@ -2,6 +2,7 @@
 ### Project 9 | Agentic AI | IIIT Naya Raipur
 
 > **Research Question:** Does miscalibration make LLM agents not just wrong — but *confidently* wrong? Can a VIB layer fix it?
+Calibration error fell from 0.295 (softmax) to 0.178 on 200 synthetic and 100 real questions, a 40% drop.
 
 **Answer from Phase 3 (200 synthetic + 100 real insurance questions, Mistral 7B):**
 - Softmax ECE: **0.2945** — model said 84.5% confident, was right only 68% of the time
