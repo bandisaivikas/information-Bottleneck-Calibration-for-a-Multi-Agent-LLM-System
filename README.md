@@ -216,14 +216,12 @@ This is **Stage 3 of Research Thread 3 — Information-Aware Agentic LLM Trainin
 
 | Stage | Status | Description |
 |---|---|---|
-| 1 | ✅ Done | IB theory + Information Plane on GPT-2 |
-| 2 | ✅ Done | Silent Inference Degradation (72% KL, 31× displacement under INT4) |
-| **3** | **🔵 This project** | **Miscalibration + VIB Layer fix — 40% ECE reduction** |
-| 4 | 🔶 Next | POMDP + SAC Deep RL agent (VIB σ as observation space) |
+| 1 | ✅ Done | Layer-wise KL sensitivity map for quantization (GPT-2, Llama 3.1 8B) |
+| 2 | ✅ Done | IB term tested with corrected MI estimator: no signal beyond KL sensitivity |
+| **3** | **🔵 This project** | **Miscalibration + VIB layer fix: 40% ECE reduction** |
+| 4 | 🔶 Next | POMDP + SAC deep RL agent (VIB σ as observation space) |
 | 5 | ⬜ Future | CALM curiosity-driven exploration |
 
-**Related paper (Stage 2, submitted EMNLP 2026):**
-> *"Silent Inference Degradation: Quantization-Induced Miscalibration in LLM Agents"*
 
 ---
 
@@ -243,6 +241,6 @@ This is **Stage 3 of Research Thread 3 — Information-Aware Agentic LLM Trainin
 
 ## Author
 
-**B.Sai Vikas , k.Nitheesh Kumar , J.Jayasurya**
-DSAI ans CSE, IIIT Naya Raipur, Batch 2027
+**B. Sai Vikas, K. Nitheesh Kumar, J. Jayasurya**
+DSAI and CSE, IIIT Naya Raipur, Batch 2027
 GitHub: [@bandisaivikas](https://github.com/bandisaivikas)
